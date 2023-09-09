@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* main - This program will assign a random number to the variable n each time it is executed
+/*
+ * main - The function main is the entry point of the program
  * Return: Always 0 (completed)
  */
 
@@ -10,7 +11,10 @@ int main(void)
 {
 		int n;
 
-		/* The variable n will store a different value every time it run this program */
+		/*
+		 * n will store a different value every time
+		 * This program will assign a random number
+		 */
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 		if (n > 0)

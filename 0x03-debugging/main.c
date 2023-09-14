@@ -2,15 +2,16 @@
 
 /**
 * main - tests function that prints if integer is positive or negative
+* @i: integer
 * Return: 0
 */
 
 int main(void)
 {
-        int c;
+        int i;
 
-        c = 98;
-        positive_or_negative(c);
+        i = 98;
+        positive_or_negative(i);
 
         return (0);
 }

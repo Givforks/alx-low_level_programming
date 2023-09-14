@@ -1,21 +1,22 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop
+* main - causes an infinite loo
+* @i: integerp
 * Return: 0
 */
 
 int main(void)
 {
-        int c;
+        int i;
 
         printf("Infinite loop incoming :(\n");
 
-        c = 0;
+        i = 0;
 
-        while (c < 10)
+        while (i < 10)
         {
-                putchar(c);
+                putchar(i);
         }
 
         printf("Infinite loop avoided! \\o/\n");

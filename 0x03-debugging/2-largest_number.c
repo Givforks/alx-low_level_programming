@@ -3,7 +3,7 @@
 /**
  * largest_number - the 3 largest number returns
  * @j: first integer
- * @k: second integer
+ * @k: second integeir
  * @l: third integer
  * Return: largest number
  */

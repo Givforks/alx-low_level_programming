@@ -1,28 +1,23 @@
 #include "main.h"
 /**
  * print_number - integer output
- * @y: printed int
+ * @n: printed int
  * using _putchar
  */
 
-void print_numbers(void)
+void print_number(int n)
 {
-	int y;
-	unsigned int nl;
-	if (y < 0)
+	unsigned int num = n;
+
+	if (n < 0)
 	{
-		nl = -y;
 		_putchar('-');
-	}
-	else
-	{
-		nl = y;
+		num = -num;
 	}
 
-	if (nl / 10)
-	{
-		print_numbers(nl / 10);
-	}
-	_putchar((nl % 10) + '0');
+	if ((num / 10) >0)
+		print_number(num / 10);
+
+	_putchar((num % 10) + '0');
 }
 

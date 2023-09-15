@@ -10,7 +10,7 @@ Return:0 null (completed)
 
 int main (void)
 {
-	int i,
+	int i;
 
 	for (i = 1; i <= 100; i++)
 	{

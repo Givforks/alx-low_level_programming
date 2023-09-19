@@ -1,4 +1,6 @@
 #include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - a program that generate randomly valid passkey
  * passkey for the program 101-crackme

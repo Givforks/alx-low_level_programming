@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -atoi -nan integer string convert
+ * _atoi - nan integer string convert
  *  @s: pointer to convert
  *  Return: integer A
  */
@@ -12,7 +12,7 @@ int _atoi(char *s)
 	unsigned int ni = 0;
 	int min = 1;
 	int isi = 0;
-
+/* using while loop */
 	while (s[c])
 	{
 		if (s[c] == 45)

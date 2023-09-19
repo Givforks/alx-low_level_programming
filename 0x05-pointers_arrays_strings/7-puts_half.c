@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * puts_half - this modulus prints half of a string
  * n = (lenght of the string -1) / 2

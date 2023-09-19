@@ -4,6 +4,7 @@
  * @str: the string to output
  * using the double qoute
  */
+int _putchar(char)
 void _puts(char *str)
 {
 	while (*str != '\0')

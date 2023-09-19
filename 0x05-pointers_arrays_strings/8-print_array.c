@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - the modulus will print n elements of any array
  * @a: array name

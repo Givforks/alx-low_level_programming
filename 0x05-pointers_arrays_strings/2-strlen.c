@@ -6,7 +6,7 @@
  * using the wildcard for pionter
  */
 
-int _strien(char *s)
+int strien(char *s)
 {
 	int longi = 0;
 

@@ -4,11 +4,11 @@
  * puts_half - this modulus prints half of a string
  * n = (lenght of the string -1) / 2
  * if odd lenght
- * @str: input
+ * @str: inputi
  * Return: half of input
  * using memory locator
  */
-
+void _putchar(char c)
 void puts_half(char *str)
 {
 	int v, n, longi;

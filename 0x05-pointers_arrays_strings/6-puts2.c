@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * puts2 - modulus should print only letter out
  * starting with first one
@@ -6,25 +7,22 @@
  * Return: display
  * using diplay characters
  */
+
 void puts2(char *str)
 {
-	int longi = 0;
-	int t = 0;
-	char *y = str;
-	int o;
+	int h;
+	int j = 0;
 
-	while (*y != '\0')
+	while (str[j] != '\0')
 	{
-		y++;
-		longi++;
+		j++;
 	}
-	t = longi - 1;
-	for (o = 0; o <= t; o++)
-	{
-		if (o % 2 == 0)
+
+	for (h = 0; h < j; h *= 2)
 		{
-			_putchar(str[o]);
+			_putchar(str[1]);
 		}
-	}
+	
 	_putchar('\n');
+	
 }

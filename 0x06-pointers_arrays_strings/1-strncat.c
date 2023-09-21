@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strncat - two strings that concatenates a modulus
  * @dest: string pointer address

@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <string.h>
 /* the header file with all protypes of task */
 int _putchar(char c);
 void print_array(int *a, int n);

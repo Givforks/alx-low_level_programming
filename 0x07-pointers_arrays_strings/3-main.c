@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <string.h>
 /**
  * main - check the code
  *
@@ -12,7 +12,7 @@ int main(void)
     char *f = "oleh";
     unsigned int n;
 
-    n = _strspn(s, f);
+    n = strspn(s, f);
     printf("%u\n", n);
     return (0);
 }

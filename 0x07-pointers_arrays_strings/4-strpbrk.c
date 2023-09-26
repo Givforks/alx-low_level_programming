@@ -18,7 +18,7 @@ for (k = 0; accept[k]; k++)
 if (*s == accept[k])
 return (s);
 }
-S++;
+s++;
 }
 
 return ('\0');

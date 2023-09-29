@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * main - check the code
  *
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    puts_recursion("Puts with recursion");
+    _puts_recursion("Puts with recursion");
     return (0);
 }

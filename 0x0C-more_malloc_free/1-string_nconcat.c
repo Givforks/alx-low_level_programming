@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
+#include <string.h>
 /**
  * string_nconcat - concatenates n bytes of a string to another string
  * @s1: string to append to concatenate0
@@ -32,7 +33,7 @@ while (i < len1)
 s[i] = s1[i];
 i++;
 }
-while (n < len2 && i < (len - n))
+while (n < len2 && i < (len2 - n))
 	s[i++] = s2[j++];
 
 	while (n >= len2 && i < (len1 + len2))

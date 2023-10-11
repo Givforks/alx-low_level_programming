@@ -26,9 +26,9 @@ if (d == NULL)
 
 struct dog
 {
-d->name = char name;
-d->age = float age;
-d->owner = char owner;
+char name;
+float age;
+char owner;
 };
 
 }

@@ -21,8 +21,8 @@ int _strlen(char *s);
 #endif
 {
 
-if (d == NULL)
-	d = malloc(sizeof(struct dog));
+if (*ptr == NULL)
+	*ptr = malloc(sizeof(struct dog));
 
 struct dog
 {

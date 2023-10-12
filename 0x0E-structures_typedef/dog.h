@@ -1,14 +1,20 @@
-#include <stdlib.h>
-#include "dog.h"
 #define DOG_H
 #ifndef DOG_H
+
 /**
- * init_dog - initializes a variable of type struct dog
- * @d: pointer to struct dog to initial
+ * struct dog - initializes a variable of type struct dog
+ * @*ptr: pointer to struct dog to initial
  * @name: name to initial
  * @age: age to initial
  * @owner: owner to initial
  */
+
+struct dog
+{
+	char name;
+	float age;
+	char owner;
+};
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
@@ -19,16 +25,3 @@ char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
 
 #endif
-{
-
-if (*ptr == NULL)
-	*ptr = malloc(sizeof(struct dog));
-
-struct dog
-{
-char name;
-float age;
-char owner;
-};
-
-}

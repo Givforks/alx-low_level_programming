@@ -11,16 +11,13 @@
 int main(int argc, char *argv[])
 {
 	char *arr;
-	int byte, i;
+	int bytes, i;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
 	}
-		printf("Error\n");
-		 exit(1);
-}
 
 	bytes = atoi(argv[1]);
 
@@ -39,7 +36,7 @@ for (i = 0; i < bytes; i++)
 		printf("%02hhx\n", arr[i]);
 		break;
 	}
-	printf("%02hhx ", arr[i];
+	printf("%02hhx", arr[i]);
 			}
 			return (0);
 			}
